@@ -1,0 +1,23 @@
+.footer{
+    padding: 1.5rem 0;
+  
+   }
+   .footer-contact{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 40px
+   }
+   .footer .bar{
+    border-bottom: 3px solid black;
+    width: 3%;
+    margin: 0rem auto;
+    display: block;
+}
+@media screen and (max-width: 1024px) {
+    .footer-contact{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    
+}
